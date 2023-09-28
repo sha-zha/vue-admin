@@ -2,10 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+min-height: 100vh;
+}
+
+#app{
+	min-height: 100vh;
+}
+
+#app > div{
+min-height: 100vh;
+}
+
 .btn {
 display: block; 
-color : text-white;
-background-color:  bg-blue-500;
-border: border border-transparent rounded;
-box-shadow:  shadow-sm;
+border: solid 1px;
+border-radius:0.375rem;
+padding: 0.5rem;
+}
+
+.btn-blue {
+color : white;
+background-color: blue;
+}
+
+.btn-warning {
+color : white;
+background-color: yellow;
 }
