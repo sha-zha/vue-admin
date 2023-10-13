@@ -12,6 +12,11 @@ import CheckpointIndex from './views/Checkpoints/Index.vue';
 import CheckpointAdd from './views/Checkpoints/Add.vue';
 
 const routes = [{
+  path: '/',
+  name: 'dashbord',
+  component: UserIndex,
+}
+,{
     path: '/signin',
     name: 'Login',
     component: LoginPage,//shsould be imported 
