@@ -10,6 +10,7 @@ import UserAdd from './views/Users/Add.vue';
 import UserEdit from './views/Users/Edit.vue';
 import CheckpointIndex from './views/Checkpoints/Index.vue';
 import CheckpointAdd from './views/Checkpoints/Add.vue';
+import SignupPage from './views/Auth/SignupPage.vue';
 
 const routes = [{
   path: '/',
@@ -20,6 +21,11 @@ const routes = [{
     path: '/signin',
     name: 'Login',
     component: LoginPage,//shsould be imported 
+},
+{
+  path: '/signup',
+  name: 'Signup',
+  component: SignupPage,
 },
 {
 path:'/admin/users',

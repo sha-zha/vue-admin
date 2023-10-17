@@ -1,5 +1,7 @@
 # vue-admin
 
+Ceci est un projet fait avec vuejs. 
+
 ## Project setup
 ```
 npm install

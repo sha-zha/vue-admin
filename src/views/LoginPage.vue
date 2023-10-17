@@ -12,7 +12,7 @@
       <div>
         <label for="email" class="block text-sm text-center text-gray-900 font-medium leading-6">Email</label>
         <div class="mt-2">
-          <input id="email" name="email" type="email" autocomplete="email" placeholder="Saisir un email" required class="block w-full border border-gray-900  p-1.5 text-gray-900 shadow-sm placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="Saisir un email" required class="block w-full border border-gray-900 rounded-md p-1.5 text-gray-900 shadow-sm placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
         </div>
       </div>
 
@@ -21,13 +21,13 @@
           <label for="password" class="block text-sm text-center text-gray-900 font-medium leading-6">Mot de passe</label>
        
         <div class="mt-2">
-          <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Saisir votre mot de passe" required class="block w-full border border-gray-900  p-1.5 text-gray-900 shadow-sm placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+          <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Saisir votre mot de passe" required class="block w-full border border-gray-900  rounded-md  p-1.5 text-gray-900 shadow-sm placeholder:text-gray-800 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
         </div>
       </div>
 
       <div class="flex flex-col items-center">
         <button type="submit" class="flex w-full justify-center rounded-md bg-orange-400 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-400">Se connecter</button>
-        <a href="#" class="text-gray-900 font-medium mt-2">M'inscrire à animal airline</a>
+        <router-link to="/signup" class="text-gray-900 font-medium mt-2">M'inscrire à animal airline</router-link>
       </div>
     </form>
 
