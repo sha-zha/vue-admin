@@ -11,7 +11,7 @@
   <div class="flex flex-wrap w-full">
     <div class="w-full">
       <img class="w-24" src="../../assets/login.png" alt="logo animal airline">
-      <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row">
+      <ul class="flex mb-0 list-none flex-wrap pb-4 flex-row">
         <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
           <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal" v-on:click="toggleTabs(1)" v-bind:class="{'text-pink-600 bg-white': openTab !== 1, 'text-white bg-pink-600': openTab === 1}">
             Particulier
