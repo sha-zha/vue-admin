@@ -11,11 +11,12 @@ import UserEdit from './views/Users/Edit.vue';
 import CheckpointIndex from './views/Checkpoints/Index.vue';
 import CheckpointAdd from './views/Checkpoints/Add.vue';
 import SignupPage from './views/Auth/SignupPage.vue';
+import PostIndex from './views/Posts/Index.vue';
 
 const routes = [{
   path: '/',
   name: 'dashbord',
-  component: UserIndex,
+  component: PostIndex,
 }
 ,{
     path: '/signin',
@@ -26,6 +27,10 @@ const routes = [{
   path: '/signup',
   name: 'Signup',
   component: SignupPage,
+},
+{
+  path: '/admin/posts',
+  component: PostIndex,
 },
 {
 path:'/admin/users',

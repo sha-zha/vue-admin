@@ -26,9 +26,14 @@ color : white;
 background-color: blue;
 }
 
-.btn-warning {
+.btn-orange {
 color : white;
-background-color: yellow;
+background-color: #F97316;
+}
+
+.btn-pink{
+	color : white;
+	background-color: #DB2777;
 }
 
 button:disabled{
