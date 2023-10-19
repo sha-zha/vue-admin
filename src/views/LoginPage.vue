@@ -42,7 +42,7 @@
     name:"LoginPage",
     methods: {
       goAdmin(){
-        this.$router.push({ name: 'dashbord', path:'/'});
+        this.$router.push({ name: 'Posts', path:'/admin/posts'});
       }
     }
   }

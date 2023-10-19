@@ -22,7 +22,7 @@
 
 <script>
 export default {
-	name: "ProductVue",
+	name: "PostVue",
 	props:{
 		action: Boolean 
 	}

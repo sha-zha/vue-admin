@@ -12,13 +12,16 @@ import CheckpointIndex from './views/Checkpoints/Index.vue';
 import CheckpointAdd from './views/Checkpoints/Add.vue';
 import SignupPage from './views/Auth/SignupPage.vue';
 import PostIndex from './views/Posts/Index.vue';
+import PostAdd from './views/Posts/Add.vue';
+import HelpIndex from './views/Helps/Index.vue';
 
 const routes = [{
   path: '/',
-  name: 'dashbord',
-  component: PostIndex,
+  name: 'home',
+  component: LoginPage,
 }
-,{
+,
+{
     path: '/signin',
     name: 'Login',
     component: LoginPage,//shsould be imported 
@@ -30,7 +33,18 @@ const routes = [{
 },
 {
   path: '/admin/posts',
+  name:'Posts',
   component: PostIndex,
+},
+{
+  path: '/admin/posts/add',
+  name:'PostsAdd',
+  component: PostAdd,
+},
+{
+  path: '/admin/helps',
+  name: 'Helps',
+  component: HelpIndex,
 },
 {
 path:'/admin/users',
