@@ -5,7 +5,6 @@
     <img class="mx-auto h-24 w-24" src="../assets/logo.png" alt="logo animal airline">
     <h2 class="text-orange-500 font-medium">Animal Airline</h2>
     <p class="text-[#FF4500]">En route pour aider nos amis à quatres pattes</p>
-    <p>Ceci est une démo sans compte pour découvrir plus clicquer sur se connecter</p>
   </div>
 
   <div class="mt-10 w-full px-3">
@@ -27,7 +26,7 @@
       </div>
 
       <div class="flex flex-col items-center">
-        <button @click="goAdmin()" type="submit" class="flex w-full justify-center rounded-md bg-orange-400 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-400">Se connecter</button>
+        <button  type="submit" class="flex w-full justify-center rounded-md bg-orange-400 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-400">Se connecter</button>
         <router-link to="/signup" class="text-gray-900 font-medium mt-2">M'inscrire à animal airline</router-link>
       </div>
     </form>
@@ -39,11 +38,6 @@
 
 <script type="text/javascript">
   export default {
-    name:"LoginPage",
-    methods: {
-      goAdmin(){
-        this.$router.push({ name: 'Posts', path:'/admin/posts'});
-      }
-    }
+    name:"LoginPage"
   }
 </script>

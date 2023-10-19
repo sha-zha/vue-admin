@@ -14,11 +14,18 @@ import SignupPage from './views/Auth/SignupPage.vue';
 import PostIndex from './views/Posts/Index.vue';
 import PostAdd from './views/Posts/Add.vue';
 import HelpIndex from './views/Helps/Index.vue';
+import HomePage from './views/HomePage.vue';
+import LandingPage from './views/LandingPage.vue';
 
 const routes = [{
   path: '/',
   name: 'home',
-  component: LoginPage,
+  component: HomePage,
+},
+{
+  path: '/landing',
+  name: 'Landing',
+  component: LandingPage,
 }
 ,
 {
